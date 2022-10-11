@@ -2,6 +2,7 @@
 
 Software metrics in object-oriented programming have been very useful to predict class fault–proneness over the years up till now there have been disparities of high levels of these software metrics is either a bad or a good thing for a software product. Also, changes in a software class can be an indicator of fault-proneness as suggested by reseachers. For this analysis, I extracted the software metrics of 10 top-tier Java open source projects (Hosted on GitHub) and performed a comparison with their commit history (software change). The analysis reveals the correlation that exists between software changes (commit history) and CK's Coupling Between Object Classes (CBO), Response For A Class (RFC), and Lack Of Cohesion Of Methods (LCOM).  The final result plot reveals that LCOM is more correlated to changes in a software project, Which suggest that classes with the highest changes are mostly classes with large LCOM. A future work would be having more test samples.  
 
+Final result graph: https://github.com/Ade2nice/CBOvsRFCvsLCOM/blob/main/Correlation%20Graph.pdf
 Projects extracted were:
 
 Dbeaver		https://github.com/dbeaver/dbeaver
